@@ -3,6 +3,4 @@ kind: Kustomization
 metadata:
   name: -apps
 spec:
-  serviceAccountName: green-sa
-  sourceRef:
-    name: green-repository
+  path: "./green/prod"
