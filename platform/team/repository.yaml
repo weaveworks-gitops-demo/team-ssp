@@ -4,4 +4,3 @@ metadata:
   name: -repository
 spec:
   interval: 5m
-  url: https://github.com/stefanprodan/podinfo
