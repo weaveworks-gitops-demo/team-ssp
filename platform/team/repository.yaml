@@ -3,4 +3,4 @@ kind: GitRepository
 metadata:
   name: -repository
 spec:
-  interval: 5m
+  interval: 1m
