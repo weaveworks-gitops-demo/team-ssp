@@ -1,0 +1,14 @@
+---
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  labels:
+    wego.weave.works/app-identifier: wego-cc6e089da7a22a2f40deed3da8ba0109
+  name: production
+  namespace: wego-system
+spec:
+  branch: main
+  deployment_type: kustomize
+  path: ./environments/prod
+  source_type: git
+  url: ssh://git@github.com/weaveworks-gitops-demo/team-ssp.git
